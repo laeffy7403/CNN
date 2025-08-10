@@ -1,4 +1,5 @@
-Before running this project, you need to set up the dataset directory for object classification as follows:
+setup a venv
+Before running this project, create a directory named dataset. Inside it, create two folders: images and labels.
 
 dataset/
 ├── images/
