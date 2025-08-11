@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction</h1>
+    <p>Label: {{ label }}</p>
+    <p>Confidence: {{ confidence | round(2) }}%</p>
+    <img src="{{ image_path }}" style="max-width:400px;">
+    <br>
+    <a href="/">Upload another</a>
+</body>
+</html>
